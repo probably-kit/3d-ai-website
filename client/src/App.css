@@ -149,3 +149,27 @@
 .button:hover span {
   color: white;
 }
+
+
+.button-container{
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+
+
+.FileInput {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  width: 70vh;
+  text-align: left;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+  position: relative;
+}
+
+.FileInput.drag-active {
+  background-color: #f0f0f0;
+}
+
